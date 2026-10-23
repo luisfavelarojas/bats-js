@@ -82,6 +82,10 @@ npm run build   # genera dist/bats.js, dist/bats.cjs, dist/bats.global.js, dist/
 npm run dev     # build en modo watch
 ```
 
+Ver `examples/standalone.html` para una demo completa sin dependencias, y
+`scripts/measure-cpu.js` para medir el costo de CPU real pegándolo en la
+consola del navegador.
+
 ## Licencia
 
 MIT

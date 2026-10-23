@@ -36,11 +36,11 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<tu-usuario>/bats-js.git"
+    "url": "git+https://github.com/luisfavelarojas/bats-js.git"
   },
-  "homepage": "https://github.com/<tu-usuario>/bats-js#readme",
+  "homepage": "https://github.com/luisfavelarojas/bats-js#readme",
   "bugs": {
-    "url": "https://github.com/<tu-usuario>/bats-js/issues"
+    "url": "https://github.com/luisfavelarojas/bats-js/issues"
   },
   "devDependencies": {
     "tsup": "^8.3.5",
