@@ -1,0 +1,49 @@
+{
+  "name": "bats-js",
+  "version": "0.1.0",
+  "description": "Efecto de murciélagos animados en <canvas>, al estilo snow.js",
+  "type": "module",
+  "main": "./dist/bats.cjs",
+  "module": "./dist/bats.js",
+  "unpkg": "./dist/bats.global.js",
+  "jsdelivr": "./dist/bats.global.js",
+  "types": "./dist/bats.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/bats.d.ts",
+      "import": "./dist/bats.js",
+      "require": "./dist/bats.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "canvas",
+    "animation",
+    "bats",
+    "murcielagos",
+    "halloween",
+    "snow.js",
+    "particles"
+  ],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<tu-usuario>/bats-js.git"
+  },
+  "homepage": "https://github.com/<tu-usuario>/bats-js#readme",
+  "bugs": {
+    "url": "https://github.com/<tu-usuario>/bats-js/issues"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
